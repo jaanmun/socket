@@ -1,0 +1,15 @@
+{
+  "name": "socket-io",
+  "version": "0.0.1",
+  "type": "module",
+  "dependencies": {
+    "socket.io": "^4.8.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "parcel --port 3002 index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
